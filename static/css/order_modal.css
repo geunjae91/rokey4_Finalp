@@ -1,0 +1,130 @@
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #181C32;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 12px;  
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    outline: 0;
+    padding: 1.75rem;
+    max-height: 100vh;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 1rem;
+}
+
+.modal-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: #181C32;
+}
+
+.modal-header .btn {
+    background: none;
+    border: none;
+    color: #7E8299;
+    font-size: 1.25rem;
+}
+
+.modal-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.notice {
+    display: flex;
+    background-color: #FFF8DD;
+    border: 1px dashed #FFC700;
+    border-radius: 0.475rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.notice i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #FFC700;
+}
+
+.form-control {
+    background-color: #F5F8FA;
+    border: none;
+    border-radius: 0.475rem;
+    padding: 0.75rem 1rem;
+    color: #3F4254;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #3F4254;
+}
+
+.fv-row {
+    margin-bottom: 1.25rem;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: 1px solid #dadada;
+}
+
+.btn {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.95rem;
+    border-radius: 0.475rem;
+    font-weight: 600;
+}
+
+.btn-light {
+    background-color: #F5F8FA;
+    color: #7E8299;
+    border: 1px solid #EFF2F5;
+}
+
+.btn-primary {
+    background-color: #4f7482 !important;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4f7482 !important;
+}
+
+.scroll-y {
+    overflow-y: auto !important;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 1rem;
+    }
+
+    .modal-content {
+        padding: 1rem;
+    }
+
+    .modal-header h2 {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "waypoints": [
+    {
+      "name": "cross",
+      "x": -0.83,
+      "y": 3.05,
+      "direction": "WEST"
+    },
+    {
+      "name": "home1",
+      "x": 0.98,
+      "y": 3.65,
+      "direction": "SOUTH"
+    },
+    {
+      "name": "home2",
+      "x": 1.21,
+      "y": 4.93,
+      "direction": "EAST"
+    },
+    {
+      "name": "home3",
+      "x": -1.58,
+      "y": 4.80,
+      "direction": "NORTH"
+    },
+    {
+      "name": "hub1",
+      "x": -1.65,
+      "y": 1.74,
+      "direction": "NORTH"
+    },
+    {
+      "name": "hub2",
+      "x": -1.65,
+      "y": 1.00,
+      "direction": "NORTH"
+    },
+    {
+      "name": "hub3",
+      "x": -1.65,
+      "y": 0.05,
+      "direction": "NORTH"
+    },
+    {
+      "name": "hub4",
+      "x": -1.65,
+      "y": -0.73,
+      "direction": "NORTH"
+    }
+  ]
+}

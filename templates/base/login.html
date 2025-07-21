@@ -1,0 +1,32 @@
+<!-- 로그인 팝업 -->
+<div class="login" id="loginPopup" style="display: none;">
+  <div class="form">
+    <h2>Hello User</h2>
+    <form id="loginForm" method="POST">
+      <div class="form-field">
+        <label for="login-mail"><i class="fa fa-user"></i></label>
+        <input id="login-mail" type="text" name="id" placeholder="User ID" required />
+        <svg><use href="#svg-check" /></svg>
+      </div>
+      <div class="form-field">
+        <label for="login-password"><i class="fa fa-lock"></i></label>
+        <input id="login-password" type="password" name="pw" placeholder="Password" required />
+        <svg><use href="#svg-check" /></svg>
+      </div>
+      <button type="submit" class="button">
+        <p class="button-text">SIGN IN</p>
+        <div class="arrow-wrapper"><p class="button-text">SIGN IN</p><span class="arrow"></span></div>
+      </button>
+    </form>
+  </div>
+  <div class="finished">
+    <svg><use href="#svg-check" /></svg>
+  </div>
+</div>
+
+<!-- 체크 아이콘 정의 -->
+<svg style="display:none;">
+  <symbol id="svg-check" viewBox="0 0 130.2 130.2">
+    <polyline points="100.2,40.2 51.5,88.8 29.8,67.5" />
+  </symbol>
+</svg>

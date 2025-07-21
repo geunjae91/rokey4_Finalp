@@ -1,0 +1,28 @@
+#mainNav {
+  background-color:transparent;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.nav-item-left,
+.nav-item-right {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item-left:hover,
+.nav-item-right:hover {
+  color: #4f7482;
+}
